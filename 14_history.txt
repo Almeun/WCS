@@ -1,0 +1,19 @@
+** Lignes 1919, 1925 et 1927 intéressantes **
+
+ 1911  cat 14_wilders.csv 
+ 1912  cat 14_wilders.csv | grep PHP
+ 1913  man wc
+ 1914  cat 14_wilders.csv | grep PHP | wc
+ 1915  cat 14_wilders.csv | grep PHP | grep 2017 
+ 1916  cat 14_wilders.csv | grep PHP | grep 2017 | grep Biarritz
+ 1917  cat 14_wilders.csv | grep PHP | grep 2017 | grep Biarritz | wc
+ 1918  cat 14_wilders.csv | grep 2019,PHP 
+ 1919  cat 14_wilders.csv | grep 2019,PHP | wc -l > 14_nb_wilder_PHP2019
+ 1920  cat 14_wilders.csv | grep 2019,PHP | wc -l 
+ 1921  cat 14_wilders.csv | grep ja*
+ 1922  cat 14_wilders.csv | grep Java
+ 1923  cat 14_wilders.csv | grep JavaScript
+ 1924  cat 14_wilders.csv | grep JavaScript | grep Toulouse
+ 1925  cat 14_wilders.csv | grep JavaScript | grep Toulouse > 14_javascript_biarritz_toulouse.csv; cat 14_wilders.csv  | grep JavaScript | grep Biarritz >> 14_javascript_biarritz_toulouse.csv
+ 1926  cat 14_javascript_biarritz_toulouse.csv
+ 1927  history | tail -16 > 14_history.txt

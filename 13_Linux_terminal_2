@@ -1,0 +1,68 @@
+alex@Alex-Asus:~/Git/WCS/bacasable/planets$ find
+.
+./cybertron.jpeg
+./mercury.jpeg
+./pluto.jpeg
+./mars.jpeg
+./jupiter.jpeg
+./uranus.jpeg
+./arrakis.jpeg
+./neptune.jpeg
+./saturn.jpeg
+./earth.jpeg
+./coruscant.jpeg
+./venus.jpeg
+alex@Alex-Asus:~/Git/WCS/bacasable/planets$ mkdir real fictional inhabited real/terrestrial real/gas-giant real/dwarf-planets
+alex@Alex-Asus:~/Git/WCS/bacasable/planets$ mv cybertron.jpeg arrakis.jpeg coruscant.jpeg fictional/
+alex@Alex-Asus:~/Git/WCS/bacasable/planets$ mv mercury.jpeg earth.jpeg venus.jpeg mars.jpeg real/terrestrial/
+alex@Alex-Asus:~/Git/WCS/bacasable/planets$ mv jupiter.jpeg saturn.jpeg uranus.jpeg neptune.jpeg real/gas-giant/
+alex@Alex-Asus:~/Git/WCS/bacasable/planets$ mv pluto.jpeg real/dwarf-planets/
+alex@Alex-Asus:~/Git/WCS/bacasable/planets$ cp fictional/* inhabited/
+alex@Alex-Asus:~/Git/WCS/bacasable/planets$ cp real/terrestrial/earth.jpeg inhabited/
+alex@Alex-Asus:~/Git/WCS/bacasable/planets$ find
+.
+./inhabited
+./inhabited/cybertron.jpeg
+./inhabited/arrakis.jpeg
+./inhabited/earth.jpeg
+./inhabited/coruscant.jpeg
+./fictional
+./fictional/cybertron.jpeg
+./fictional/arrakis.jpeg
+./fictional/coruscant.jpeg
+./real
+./real/dwarf-planets
+./real/dwarf-planets/pluto.jpeg
+./real/terrestrial
+./real/terrestrial/mercury.jpeg
+./real/terrestrial/mars.jpeg
+./real/terrestrial/earth.jpeg
+./real/terrestrial/venus.jpeg
+./real/gas-giant
+./real/gas-giant/jupiter.jpeg
+./real/gas-giant/uranus.jpeg
+./real/gas-giant/neptune.jpeg
+./real/gas-giant/saturn.jpeg
+alex@Alex-Asus:~/Git/WCS/bacasable/planets$ rm -dr real/dwarf-planets/
+alex@Alex-Asus:~/Git/WCS/bacasable/planets$ find
+.
+./inhabited
+./inhabited/cybertron.jpeg
+./inhabited/arrakis.jpeg
+./inhabited/earth.jpeg
+./inhabited/coruscant.jpeg
+./fictional
+./fictional/cybertron.jpeg
+./fictional/arrakis.jpeg
+./fictional/coruscant.jpeg
+./real
+./real/terrestrial
+./real/terrestrial/mercury.jpeg
+./real/terrestrial/mars.jpeg
+./real/terrestrial/earth.jpeg
+./real/terrestrial/venus.jpeg
+./real/gas-giant
+./real/gas-giant/jupiter.jpeg
+./real/gas-giant/uranus.jpeg
+./real/gas-giant/neptune.jpeg
+./real/gas-giant/saturn.jpeg

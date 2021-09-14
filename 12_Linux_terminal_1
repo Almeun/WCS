@@ -1,0 +1,44 @@
+alex@Alex-Asus:~/Git/WCS$ pwd
+/home/alex/Git/WCS
+alex@Alex-Asus:~/Git/WCS$ ls
+11_Introduction_au_shell.sh
+alex@Alex-Asus:~/Git/WCS$ ls -alh
+total 20K
+drwxrwxr-x 3 alex alex 4,0K sept. 14 11:16 .
+drwxrwxr-x 6 alex alex 4,0K sept. 14 11:09 ..
+-rwxrwxr-x 1 alex alex   80 sept. 14 11:25 11_Introduction_au_shell.sh
+drwxrwxr-x 7 alex alex 4,0K sept. 14 11:12 .git
+-rw-r--r-- 1 alex alex 1,8K sept. 14 11:12 .gitignore
+alex@Alex-Asus:~/Git/WCS$ cd ..
+alex@Alex-Asus:~/Git$ ls -l
+total 16
+drwxrwxr-x 3 alex alex 4096 sept.  1 18:21 OpenClassroomProject
+drwxrwxr-x 7 alex alex 4096 sept.  1 17:49 TSP
+drwxrwxr-x 3 alex alex 4096 sept. 14 11:16 WCS
+drwxrwxr-x 6 alex alex 4096 sept.  5 18:07 website_alex
+alex@Alex-Asus:~/Git$ cd
+alex@Alex-Asus:~$ cd Downloads/
+alex@Alex-Asus:~/Downloads$ cd ~/Reconversion/Rootme/
+alex@Alex-Asus:~/Reconversion/Rootme$ ls 
+ 1-change-pass     1-simpleid     1-simpleid.o
+ 1-change-pass_2   1-simpleid.c  'APT - SCRIPT'
+alex@Alex-Asus:~/Reconversion/Rootme$ ls /var/log
+alternatives.log    boot.log.2     dpkg.log.1         syslog.1
+alternatives.log.1  boot.log.3     faillog            syslog.2.gz
+apport.log          boot.log.4     fontconfig.log     syslog.3.gz
+apport.log.1        boot.log.5     gdm3               syslog.4.gz
+apport.log.2.gz     boot.log.6     gpu-manager.log    ubuntu-advantage.log
+apport.log.3.gz     boot.log.7     hp                 ubuntu-advantage.log.1
+apport.log.4.gz     bootstrap.log  installer          unattended-upgrades
+apport.log.5.gz     btmp           journal            vbox-setup.log
+apport.log.6.gz     btmp.1         kern.log           vbox-setup.log.1
+apport.log.7.gz     cups           kern.log.1         vbox-setup.log.2
+apt                 dist-upgrade   kern.log.2.gz      vbox-setup.log.3
+auth.log            dmesg          kern.log.3.gz      vbox-setup.log.4
+auth.log.1          dmesg.0        kern.log.4.gz      vmware
+auth.log.2.gz       dmesg.1.gz     lastlog            vmware-installer
+auth.log.3.gz       dmesg.2.gz     openvpn            vnetlib
+auth.log.4.gz       dmesg.3.gz     private            wtmp
+boot.log            dmesg.4.gz     speech-dispatcher
+boot.log.1          dpkg.log       syslog
+alex@Alex-Asus:~/Reconversion/Rootme$ 
