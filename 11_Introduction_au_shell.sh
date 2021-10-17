@@ -4,3 +4,6 @@ if [ -n "$1" ]; then
 else
 	echo "bonjour $USER"
 fi
+
+
+je téape du texte	

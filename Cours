@@ -1,0 +1,12 @@
+========================================== Semaine 1 =========================================
+
+grep
+	-e 	patterns, permet de combiner plusieurs expressions dans un grep
+		ex: grep -e toulouse, -e biarritz
+		
+sudo 
+	-l		what access do I have
+	-ll		(verbose, much better) what accesses do I have
+	-U [usrnm] -l	what access does [usrnm] have
+	
+* change sudo rights = change the sudoers file
